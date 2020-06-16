@@ -7,6 +7,9 @@ describe Book do
   end
   it 'expects the book to have a name' do
     book=Book.new
-    expect(book.title).to eq(true)
+    expect(book.name).to eq(true)
+  end
+  it 'expects the book to have an author' do
+    expect(subject.author).to eq(true)
   end
 end
